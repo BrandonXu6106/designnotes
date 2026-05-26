@@ -7,5 +7,4 @@ tags:
   - status/seed
 draft: false
 enableToc: true
-excalidraw-open-md: true
 ---
