@@ -13,12 +13,12 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: "local"
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: "DM Serif Display"
+      body: "Bricolage Grotesque"
+      code: "etBrains Mono"
     colors:
       lightMode:
         light: "#fffdfa"
