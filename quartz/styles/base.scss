@@ -219,7 +219,7 @@ a {
     }
 
     & .sidebar {
-      gap: 1.2rem;
+      gap: 1.7rem;
       top: 0;
       box-sizing: border-box;
       padding: $topSpacing 2rem 2rem 2rem;
@@ -660,7 +660,7 @@ ol.overflow {
 .katex-display {
   display: initial;
   overflow-x: auto;
-  //overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .external-embed.youtube,
