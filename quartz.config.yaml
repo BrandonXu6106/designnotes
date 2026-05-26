@@ -21,26 +21,25 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        lightMode: 
-          light: "#fffdfa"
-          lightgray: "#d1caba"
-          gray: "#9c9384"
-          darkgray: "#2A354B"
-          dark: "#08142C"
-          secondary: "#274B75"
-          tertiary: "#84a59d"
-          highlight: "rgba(143, 159, 169, 0.15)"
-          textHighlight: "#fff23688"
-        darkMode: 
-          light: "#0c0f14"
-          lightgray: "#2b3443ff"
-          gray: "#5A657B"
-          darkgray: "#d4d4d4"
-          dark: "#ebebec"
-          secondary: "#7188A9"
-          tertiary: "#84a59d"
-          highlight: "rgba(143, 159, 169, 0.15)"
-          textHighlight: "#b3aa0288"
+        light: "#fffdfa"
+        lightgray: "#d1caba"
+        gray: "#9c9384"
+        darkgray: "#2A354B"
+        dark: "#08142C"
+        secondary: "#274B75"
+        tertiary: "#84a59d"
+        highlight: "rgba(143, 159, 169, 0.15)"
+        textHighlight: "#fff23688"
+      darkMode:
+        light: "#0c0f14"
+        lightgray: "#2b3443ff"
+        gray: "#5A657B"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#7188A9"
+        tertiary: "#84a59d"
+        highlight: "rgba(143, 159, 169, 0.15)"
+        textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
