@@ -21,3 +21,4 @@ export function External<Options extends object | undefined>(
 
   return component as QuartzComponent
 }
+ 
