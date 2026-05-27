@@ -41,8 +41,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: github:quartz-community/poetry
-    enabled: true
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
@@ -77,12 +75,6 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
-    options:
-      showByDefault: true
-      maxDepth: 6
-      minEntries: 1
-      collapseByDefault: false
-      layout: modern
     order: 50
   - source: github:quartz-community/crawl-links
     enabled: true

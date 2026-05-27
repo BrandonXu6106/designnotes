@@ -1,5 +1,5 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
-
+import * as ExternalPlugin from "./.quartz/plugins";
 
 const config = await loadQuartzConfig({
 	theme: {
@@ -45,3 +45,26 @@ const config = await loadQuartzConfig({
 export default config
 
 export const layout = await loadQuartzLayout() 
+
+ExternalPlugin.Comments({
+  provider: "giscus",
+  options: {
+    repo: "brandonxu6106/designnotes",
+    repoId: "R_kgDOSn4_aw",
+    category: "Announcements",
+    categoryId: "DDIC_kwDOSn4_a84C98NW",
+  },
+});
+
+
+// Transformer
+ExternalPlugin.TableOfContentsTransformer({ maxDepth: 6 });
+ExternalPlugin.TableOfContentsTransformer({ minEntries: 0 });
+ExternalPlugin.TableOfContentsTransformer({ collapseByDefault: false });
+ExternalPlugin.TableOfContentsTransformer({ showByDefault: true });
+// Component
+ExternalPlugin.TableOfContents({ layout: "modern" });
+
+
+
+
