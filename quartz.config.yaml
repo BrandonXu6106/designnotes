@@ -77,7 +77,12 @@ plugins:
     order: 40
   - source: github:quartz-community/table-of-contents
     enabled: true
-    showbydefault: true
+    options:
+      showByDefault: true 
+      maxDepth: 6
+      minEntries: 1
+      collapseByDefault: false
+      layout: modern
     order: 50
   - source: github:quartz-community/crawl-links
     enabled: true
