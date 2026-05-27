@@ -222,9 +222,6 @@ plugins:
         category: Announcements
         categoryId: DDIC_kwDOSn4_a84C98NW
         lang: zh-CN
-        themeUrl: "brandonXu6106.github.io/designnotes/static/giscus" # corresponds to quartz/static/giscus/
-        lightTheme: light # corresponds to light-theme.css in quartz/static/giscus/
-        darkTheme: dark
     layout:
       position: afterBody
       priority: 10
