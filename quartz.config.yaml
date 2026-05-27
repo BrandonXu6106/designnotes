@@ -213,7 +213,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options:
@@ -222,7 +222,10 @@ plugins:
         category: Announcements
         categoryId: DDIC_kwDOSn4_a84C98NW
         lang: zh-CN
-        theme: dark_high_contrast
+        themeUrl: "brandonXu6106.github.io/designnotes/static/giscus" # corresponds to quartz/static/giscus/
+        lightTheme: light # corresponds to light-theme.css in quartz/static/giscus/
+        darkTheme: dark
+    layout:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
