@@ -1,4 +1,11 @@
 @use "./base.scss";
+@use "./custom/image-adjustments.scss";
+@use "./custom/callout-adjustments.scss";
+@use "./custom/column-callout.scss";
+@use "./custom/caption-callout.scss";
+@use "./custom/infobox-callout.scss";
+@use "./custom/maintenance-template-callout.scss";
+@use "./custom/transclusion-adjustments.scss";
 
 // put your custom CSS here!
 @use "./variables.scss" as *;
@@ -28,16 +35,16 @@ body[data-slug="thoughts/craft"] {
   & li:has(> img, > video) {
     list-style-type: none;
 
-    & > img,
-    & > video {
+    &>img,
+    &>video {
       margin: 1rem 0;
     }
   }
 
-  article > ul {
+  article>ul {
     padding-left: 0;
 
-    & > li {
+    &>li {
       list-style-type: none;
       margin: 1rem 0;
     }
@@ -64,7 +71,7 @@ hr {
 }
 
 pre.poetry {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-family: biro_script_standardRgus;
   border: none;
   padding: 0;
@@ -96,7 +103,7 @@ body.animation-ready #quartz-body {
 
   @for $i from 1 through 4 {
     @for $j from 1 through 8 {
-      & > *:nth-child(#{$i}) > *:nth-child(#{$j}) {
+      &>*:nth-child(#{$i})>*:nth-child(#{$j}) {
         animation: var(--animation-name) 2s ease 1 normal backwards;
         animation-delay: #{0.1 * $j + 0.4 * $i}s;
       }
@@ -163,23 +170,21 @@ body.animation-ready #quartz-body {
     --bounce-light: #1b293f;
   }
 
-  & > #progressive-blur {
+  &>#progressive-blur {
     position: absolute;
     height: 100%;
     width: 100%;
 
-    & > div {
+    &>div {
       position: absolute;
       height: 100%;
       width: 100%;
       backdrop-filter: blur(var(--blur-amount));
-      mask-image: linear-gradient(
-        252deg,
-        transparent,
-        transparent var(--stop1),
-        black var(--stop2),
-        black
-      );
+      mask-image: linear-gradient(252deg,
+          transparent,
+          transparent var(--stop1),
+          black var(--stop2),
+          black);
 
       &:nth-child(1) {
         --blur-amount: 8px;
@@ -215,7 +220,7 @@ body.animation-ready #quartz-body {
     bottom: 0;
   }
 
-  & > .perspective {
+  &>.perspective {
     position: absolute;
     transition:
       transform 1.7s var(--timing-fn),
@@ -244,7 +249,7 @@ body.animation-ready #quartz-body {
     right: -600px;
     width: 1600px;
     height: 1400px;
-    background-image: url("/static/leaves.png");
+    background-image: url("/obsidianpublish/leaves.png");
     perspective: 400px;
     animation: billow 8s ease-in-out infinite;
   }
@@ -280,7 +285,7 @@ body.animation-ready #quartz-body {
       }
     }
 
-    & > .vertical {
+    &>.vertical {
       top: 0;
       position: absolute;
       height: 100%;
@@ -288,7 +293,7 @@ body.animation-ready #quartz-body {
       display: flex;
       justify-content: space-around;
 
-      & > .bar {
+      &>.bar {
         width: 12px;
         height: 100%;
       }
@@ -356,4 +361,336 @@ body.animation-ready #quartz-body {
   100% {
     transform: rotateX(0deg) rotateY(0deg) scale(1);
   }
+}
+
+/* 一级标题（大标题）颜色 */
+h1 {
+  color: #7188A9; // 亮蓝色，可自定义
+}
+
+/* 二级标题 */
+h2 {
+  color: #6aad97; // 紫色，可自定义
+}
+
+/* 三级标题 */
+h3 {
+  color: #d78e3f; // 橙色，可自定义
+}
+
+/* 四级标题 */
+h4 {
+  color: #9359c9; // 绿色，可自定义
+}
+
+/* 五级标题 */
+h5 {
+  color: #cc5d5d; // 红色，可自定义
+}
+
+/* 六级标题 */
+h6 {
+  color: #64748b; // 灰蓝色，可自定义
+}
+
+/***************************************************表格样式*********************************************/
+/* 亮色主题玻璃拟态表格 */
+[saved-theme="light"] table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* 保证行高和列宽稳定 */
+  margin: 1.2rem 0;
+  background: linear-gradient(120deg, rgba(245, 245, 255, 0.90) 70%, rgba(225, 235, 250, 0.70) 100%);
+  backdrop-filter: blur(8px) saturate(1.10);
+  -webkit-backdrop-filter: blur(8px) saturate(1.10);
+  border-radius: 8px;
+  border: 1.5px solid rgba(160, 180, 240, 0.33);
+  box-shadow:
+    0 2px 12px 0 rgba(120, 120, 200, 0.10),
+    0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
+  color: #2a2e4a;
+  font-size: 0.97rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+/* 暗色主题玻璃拟态表格 */
+[saved-theme="dark"] table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 1.2rem 0;
+  background: linear-gradient(120deg, rgba(38, 40, 60, 0.95) 70%, rgba(54, 54, 84, 0.75) 100%);
+  backdrop-filter: blur(10px) saturate(1.10);
+  -webkit-backdrop-filter: blur(10px) saturate(1.10);
+  border-radius: 8px;
+  border: 1.5px solid rgba(120, 140, 220, 0.22);
+  box-shadow:
+    0 2px 12px 0 rgba(80, 120, 180, 0.13),
+    0 0 0 1.5px rgba(255, 255, 255, 0.10) inset;
+  color: #e6eaff;
+  font-size: 0.97rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+/* 表头样式（纯色） */
+[saved-theme="light"] th {
+  background: #e7eaff;
+  font-weight: 700;
+  color: #2a2e4a;
+  border-bottom: 1.5px solid #b6baff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.32em 0.7em;
+}
+
+[saved-theme="dark"] th {
+  background: #2a2e4a;
+  color: #b6baff;
+  border-bottom: 1.5px solid #4a4d6c;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.32em 0.7em;
+}
+
+/* 斑马线和悬停效果（表体） */
+[saved-theme="light"] tbody tr:nth-child(odd) {
+  background: rgba(230, 235, 255, 0.65);
+}
+
+[saved-theme="light"] tbody tr:nth-child(even) {
+  background: rgba(210, 220, 245, 0.38);
+}
+
+[saved-theme="dark"] tbody tr:nth-child(odd) {
+  background: rgba(44, 48, 74, 0.38);
+}
+
+[saved-theme="dark"] tbody tr:nth-child(even) {
+  background: rgba(38, 40, 60, 0.22);
+}
+
+[saved-theme="light"] tr:hover,
+[saved-theme="light"] tbody tr:hover {
+  background: rgba(180, 200, 255, 0.22) !important;
+}
+
+[saved-theme="dark"] tr:hover,
+[saved-theme="dark"] tbody tr:hover {
+  background: rgba(120, 140, 220, 0.22) !important;
+}
+
+/* 单元格样式 */
+[saved-theme="light"] th,
+[saved-theme="dark"] th,
+[saved-theme="light"] td,
+[saved-theme="dark"] td {
+  padding: 0.22em 0.55em;
+  word-break: break-all;
+  white-space: normal;
+  border: 1px solid rgba(120, 140, 200, 0.08);
+  font-size: 0.97em;
+
+  /* 强制固定行高，防止空行塌陷 */
+  height: 1.8em;
+  /* 可根据需求微调 */
+  line-height: 1.8em;
+  /* 与 height 保持一致 */
+}
+
+/* 空单元格自动填充，撑开高度 */
+[saved-theme="light"] td:empty::before,
+[saved-theme="dark"] td:empty::before {
+  content: "\00a0";
+  display: block;
+}
+
+/* 圆角收尾 */
+[saved-theme="light"] td:first-child,
+[saved-theme="dark"] td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+[saved-theme="light"] td:last-child,
+[saved-theme="dark"] td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* 移除外层横向滚动条 */
+.markdown-preview-view,
+.content,
+.post-content {
+  overflow-x: visible !important;
+}
+
+/******************************inline code样式**************************************/
+/* 仿 VSCode 的 inline code 样式 */
+code,
+.inline-code {
+  display: inline;
+  font-family: 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 0.92em;
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.3;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Light 模式 */
+html[data-theme='light'] code,
+html[data-theme='light'] .inline-code {
+  background-color: #e7f3ff;
+  color: #044b94;
+  border: 1px solid #b2d2f3;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
+}
+
+/* Dark 模式 */
+html[data-theme='dark'] code,
+html[data-theme='dark'] .inline-code {
+  background-color: #1e2a33;
+  color: #cbdfff;
+  border: 1px solid #334c5c;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+/* Hover 效果：代码片高亮并轻微发光 */
+code:hover,
+.inline-code:hover {
+  background-color: #66ccff33;
+  box-shadow: 0 0 6px rgba(102, 204, 255, 0.3);
+  transform: scale(1.015);
+  cursor: pointer;
+}
+
+/***************************************加粗文字变色********************************************/
+/* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
+strong {
+  font-weight: bold !important;
+  color: #db3d3d !important;
+  /* 自定义你喜欢的字体颜色 */
+}
+
+/****************************************暗色主题下图片暗化处理********************************************/
+/*───────────────────────────────────────────────────────────────
+  一、浅色模式：系统偏好或 saved-theme="light"
+───────────────────────────────────────────────────────────────*/
+@media (prefers-color-scheme: light) {
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+    filter: none !important;
+    transition: none !important;
+  }
+}
+
+/* 站点级 saved-theme="light" */
+html[saved-theme="light"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+  filter: none !important;
+  transition: none !important;
+}
+
+/*───────────────────────────────────────────────────────────────
+  二、深色模式：系统偏好或 saved-theme="dark"
+───────────────────────────────────────────────────────────────*/
+/* 系统级 dark */
+@media (prefers-color-scheme: dark) {
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+    filter: brightness(0.8) !important;
+    transition: filter 0.3s ease !important;
+    cursor: zoom-in !important;
+  }
+
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
+    filter: brightness(1) !important;
+  }
+}
+
+/* 站点级 saved-theme="dark" */
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+  filter: brightness(0.8) !important;
+  transition: filter 0.3s ease !important;
+  cursor: zoom-in !important;
+}
+
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
+  filter: brightness(1) !important;
+}
+
+/********************************************引用隐藏标题********************************************/
+/* —— Quartz：在引用章节时隐藏首个标题 —— */
+
+/* 隐藏引用块内的所有标题（h1–h6） */
+blockquote.transclude>h1,
+blockquote.transclude>h2,
+blockquote.transclude>h3,
+blockquote.transclude>h4,
+blockquote.transclude>h5,
+blockquote.transclude>h6 {
+  display: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* 隐藏“Link to original”链接 */
+blockquote.transclude>a.internal.transclude-src {
+  display: none !important;
+}
+
+/**********************************************underline样式***********************************************/
+/* 波浪下划线基础样式 */
+u {
+  text-decoration: none;
+  position: relative;
+  background-image:
+    repeating-linear-gradient(-45deg,
+      currentColor,
+      currentColor 1px,
+      transparent 1px,
+      transparent 5px);
+  background-position: 0 100%;
+  background-size: 6px 2px;
+  background-repeat: repeat-x;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+
+/* 亮色模式样式 */
+@media (prefers-color-scheme: light) {
+  u {
+    color: #4a65e2;
+    /* 亮色模式下的蓝色 */
+  }
+
+  u:hover {
+    color: #ff3b30;
+    /* 亮色模式悬停红色 */
+    background-size: 6px 3px;
+    background-position: 0 97%;
+  }
+}
+
+/* 暗色模式样式 */
+@media (prefers-color-scheme: dark) {
+  u {
+    color: #71a6ff;
+    /* 暗色模式下的亮蓝色 */
+  }
+
+  u:hover {
+    color: #ff6b54;
+    /* 暗色模式悬停橙红色 */
+    background-size: 6px 3px;
+    background-position: 0 97%;
+  }
+}
+
+/*******************************superscripts aka footnotes being small and middled**********************************/
+sup {
+  font-size: 0.65em;
+  vertical-align: top;
 }
