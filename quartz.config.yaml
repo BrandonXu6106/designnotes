@@ -222,9 +222,9 @@ plugins:
         category: Announcements
         categoryId: DDIC_kwDOSn4_a84C98NW
         lang: zh-CN
-        themeUrl: "https://example.com/static/giscus" # corresponds to quartz/static/giscus/
-        lightTheme: light-theme # corresponds to light-theme.css in quartz/static/giscus/
-        darkTheme: dark-theme # corresponds to dark-theme.css in quartz/static/giscus/
+        themeUrl: "brandonXu6106.github.io/designnotes/static/giscus" # corresponds to quartz/static/giscus/
+        lightTheme: light # corresponds to light-theme.css in quartz/static/giscus/
+        darkTheme: dark
     layout:
       position: afterBody
       priority: 10
@@ -232,8 +232,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
+        GitHub: https://github.com/BrandonXu6106
         Discord Community: https://discord.gg/cRFFHYye7t
+        Twitter: https://x.com/ArioXu52756
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
