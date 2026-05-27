@@ -13,12 +13,12 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: "local"
+    fontOrigin: local
     cdnCaching: true
     typography:
-      header: "DM Serif Display"
-      body: "Bricolage Grotesque"
-      code: "etBrains Mono"
+      header: DM Serif Display
+      body: Bricolage Grotesque
+      code: etBrains Mono
     colors:
       lightMode:
         light: "#fffdfa"
@@ -28,7 +28,7 @@ configuration:
         dark: "#08142C"
         secondary: "#274B75"
         tertiary: "#84a59d"
-        highlight: "rgba(143, 159, 169, 0.15)"
+        highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
         light: "#0c0f14"
@@ -38,7 +38,7 @@ configuration:
         dark: "#ebebec"
         secondary: "#7188A9"
         tertiary: "#84a59d"
-        highlight: "rgba(143, 159, 169, 0.15)"
+        highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/poetry
@@ -47,7 +47,7 @@ plugins:
     enabled: true
     options:
       enableInteraction: true
-      darkMode: "auto"
+      darkMode: auto
       exportPadding: 20
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -78,7 +78,7 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     options:
-      showByDefault: true 
+      showByDefault: true
       maxDepth: 6
       minEntries: 1
       collapseByDefault: false
@@ -216,7 +216,15 @@ plugins:
     enabled: false
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: brandonxu6106/designnotes
+        repoId: R_kgDOSn4_aw
+        category: Announcements
+        categoryId: DDIC_kwDOSn4_a84C98NW
+        lang: zh-CN
+        themeUrl: "https://example.com/static/giscus" # corresponds to quartz/static/giscus/
+        lightTheme: light-theme # corresponds to light-theme.css in quartz/static/giscus/
+        darkTheme: dark-theme # corresponds to dark-theme.css in quartz/static/giscus/
     layout:
       position: afterBody
       priority: 10
