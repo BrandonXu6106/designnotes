@@ -14,5 +14,5 @@ enableToc: true
 
 
 ---
-上一页：[[content/posts/BrandDesign/IP/IP形象的变装与场景动作的延展|IP形象的变装与场景动作的延展]]
-下一页：[[content/posts/BrandDesign/IP/IP形象的完整包装商业提案]]
+- 上一页：[[BrandDesign/IP/IP形象的变装与场景动作的延展|IP形象的变装与场景动作的延展]]
+- 下一页：[[BrandDesign/IP/IP形象的完整包装商业提案]] 

@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: 表格
+  - type: cards
+    name: 视图
+    order:
+      - file.basename
+      - file.tags
+      - file.ctime
+      - imagine
+  - type: list
+    name: 视图3

@@ -22,7 +22,7 @@ date: 2025-08-06
 - 动物类(多)：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654482.png)
 - 植物类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654476.png)
 - 产品类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211655584.png)
-### 1.2. IP形象风格[[cattle|cattle]]
+### 1.2. IP形象风格[[English/words/cattle|cattle]]
 - 脱离现代审美： 复杂、大眼睛、微笑、颜色多 
 	- **IP形象不是插画，是符号，需要极简。**![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211753333.png)
 - 极简、时尚、有辨识度、颜色单一、有自己的专属情绪、有记忆点
@@ -76,7 +76,7 @@ date: 2025-08-06
 
 
 ---
-下一页：[[content/posts/BrandDesign/IP/IP形象三视图及表情包设计]]
+- 下一页：[[BrandDesign/IP/IP形象三视图及表情包设计]]
 
 
 

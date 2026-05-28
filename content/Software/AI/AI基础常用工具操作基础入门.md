@@ -23,4 +23,4 @@ enableToc: true
 
 
 ---
-- 下一页：[[posts/Software/AI/布尔运算与多边形工具|布尔运算与多边形工具]]
+- 下一页：[[Software/AI/布尔运算与多边形工具|布尔运算与多边形工具]]

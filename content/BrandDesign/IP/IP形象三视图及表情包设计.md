@@ -12,6 +12,10 @@ enableToc: true
 ---
 
 
+
+
+
+
 ---
-上一页：[[content/posts/BrandDesign/IP/IP形象的认知与基础形象设定|IP形象的认知与基础形象设定]]
-下一页：[[content/posts/BrandDesign/IP/IP形象的变装与场景动作的延展]]
+- 上一页：[[BrandDesign/IP/IP形象的认知与基础形象设定|IP形象的认知与基础形象设定]]
+- 下一页：[[BrandDesign/IP/IP形象的变装与场景动作的延展|IP形象的变装与场景动作的延展]] 

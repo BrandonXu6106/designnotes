@@ -30,5 +30,5 @@ enableToc: true
 		- 从右上到左下，白色到红色，从弱到强![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511231629353.png)
 
 ---
-- 上一页：[[posts/Software/AI/2.5D建筑物插画|2.5D建筑物插画]]
-- 下一页：[[posts/Software/AI/环绕字体异空间LOGO设计|环绕字体异空间LOGO设计]]
+- 上一页：[[Software/AI/2.5D建筑物插画|2.5D建筑物插画]]
+- 下一页：[[Software/AI/环绕字体异空间LOGO设计|环绕字体异空间LOGO设计]]

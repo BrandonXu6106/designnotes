@@ -13,6 +13,8 @@ enableToc: true
 
 
 
+
+
 ---
-上一页：[[content/posts/BrandDesign/IP/IP形象的完整包装商业提案|IP形象的完整包装商业提案]]
-下一页：
+- 上一页：[[BrandDesign/IP/IP形象的完整包装商业提案|IP形象的完整包装商业提案]]
+- 下一页：

@@ -27,4 +27,4 @@ enableToc: true
 	- 扩展外观后拉动最后一个字母，做出尾巴效果![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511241239000.png)
 
 ---
-- 上一页：[[posts/Software/AI/径向字母LOGO设计思路|径向字母LOGO设计思路]]
+- 上一页：[[Software/AI/径向字母LOGO设计思路|径向字母LOGO设计思路]]

@@ -31,5 +31,5 @@ enableToc: true
 - 设置渐变![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511231735448.png)
 
 ---
-- 上一页：[[posts/Software/AI/3D环绕设计红点奖LOGO|3D环绕设计红点奖LOGO]]
-- 下一页：[[posts/Software/AI/径向字母LOGO设计思路|径向字母LOGO设计思路]]
+- 上一页：[[Software/AI/3D环绕设计红点奖LOGO|3D环绕设计红点奖LOGO]]
+- 下一页：[[Software/AI/径向字母LOGO设计思路|径向字母LOGO设计思路]]

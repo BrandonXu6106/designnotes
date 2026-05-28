@@ -14,5 +14,5 @@ enableToc: true
 - 形象：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511191139455.png)
 - 拆解：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511191139846.png)
 ---
-- 上一页：[[posts/Software/AI/布尔运算与多边形工具|布尔运算与多边形工具]]
-- 下一页：[[posts/Software/AI/黄金比例火箭插画|黄金比例火箭插画]]
+- 上一页：[[Software/AI/布尔运算与多边形工具|布尔运算与多边形工具]]
+- 下一页：[[Software/AI/黄金比例火箭插画|黄金比例火箭插画]]

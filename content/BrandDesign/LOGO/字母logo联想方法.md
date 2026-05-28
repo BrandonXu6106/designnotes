@@ -11,5 +11,5 @@ draft: false
 enableToc: true
 ---
 ---
-上一页：[[content/posts/BrandDesign/LOGO/卡通logo|卡通logo]]
-下一页：[[content/posts/BrandDesign/LOGO/汉字logo]]
+- 上一页：[[BrandDesign/LOGO/卡通logo|卡通logo]]
+- 下一页：[[BrandDesign/LOGO/汉字logo|汉字logo]] 
