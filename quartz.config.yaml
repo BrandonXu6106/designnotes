@@ -76,6 +76,9 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
+    layout:
+      position: right
+      priority: 20
   - source: github:quartz-community/crawl-links
     enabled: true
     options:

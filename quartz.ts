@@ -59,12 +59,8 @@ ExternalPlugin.Comments({
 
 // Transformer
 ExternalPlugin.TableOfContentsTransformer({ maxDepth: 6 });
-ExternalPlugin.TableOfContentsTransformer({ minEntries: 0 });
-ExternalPlugin.TableOfContentsTransformer({ collapseByDefault: false });
-ExternalPlugin.TableOfContentsTransformer({ showByDefault: true });
 // Component
 ExternalPlugin.TableOfContents({ layout: "modern" });
-
 
 
 
