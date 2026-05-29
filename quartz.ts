@@ -53,7 +53,7 @@ ExternalPlugin.Comments({
     repo: "brandonxu6106/designnotes",
     repoId: "R_kgDOSn4_aw",
     category: "Announcements",
-    categoryId: "DDIC_kwDOSn4_a84C98NW",
+    categoryId: "DIC_kwDOSn4_a84C98NW",
   },
 });
 
