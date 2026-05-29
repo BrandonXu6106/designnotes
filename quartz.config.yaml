@@ -41,15 +41,10 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-plugins:
   - source:
-      name: quartz-themes
-      repo: "https://github.com/saberzero1/quartz-themes.git"
-      subdir: plugin
+      repo: https://github.com/vazome/quartz-clickable-images-zoom-plugin.git
+      name: clickableImages
     enabled: true
-    options:
-      theme: "tokyo-night"
-      mode: both
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
