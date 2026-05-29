@@ -70,20 +70,6 @@ hr {
   }
 }
 
-
-/* 当外层 explorer 标记为折叠或者内容区标记为收起时，隐藏内容 */
-.explorer[data-collapsed="true"] .explorer-content,
-.explorer-content[aria-expanded="false"] {
-  display: none !important;
-}
-
-/* 当外层 explorer 标记为展开或者内容区标记为展开时，显示内容 */
-.explorer[data-collapsed="false"] .explorer-content,
-.explorer-content[aria-expanded="true"] {
-  display: block !important;
-}
-
-
 pre.poetry {
   font-size: 1.2rem;
   font-family: biro_script_standardRgus;
@@ -582,13 +568,32 @@ code:hover,
   cursor: pointer;
 }
 
-/***************************************加粗文字变色********************************************/
-/* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
+
+/*************************************** 高级动态加粗（极光青蓝-全兼容版） ********************************************/
 strong {
-  font-weight: bold !important;
-  color: #db3d3d !important;
-  /* 自定义你喜欢的字体颜色 */
+  font-weight: 700 !important;
+  letter-spacing: 0.03em;
+  display: inline-block;
+
+  /* 1. 渐变背景 */
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+
+  /* 2. 核心裁剪属性 */
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+
+  /* 3. 文本颜色透明化 */
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+
+  /* 4. 视觉层级：极光微光 */
+  text-shadow: 0 2px 8px rgba(0, 114, 255, 0.15);
+
+  /* 5. 防折行断裂 */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
+
 
 /****************************************暗色主题下图片暗化处理********************************************/
 /*───────────────────────────────────────────────────────────────
