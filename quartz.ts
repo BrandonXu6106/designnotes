@@ -1,6 +1,7 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import * as ExternalPlugin from "./.quartz/plugins";
 
+
 const config = await loadQuartzConfig({
 	theme: {
       fontOrigin: "local",
@@ -61,6 +62,4 @@ ExternalPlugin.Comments({
 ExternalPlugin.TableOfContentsTransformer({ maxDepth: 6 });
 // Component
 ExternalPlugin.TableOfContents({ layout: "modern" });
-
-
 

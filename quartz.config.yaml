@@ -41,6 +41,11 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
+  - source:
+      repo: https://github.com/vazome/quartz-clickable-images-zoom-plugin.git
+      subdir: plugin
+      name: clickableImages
+    enabled: true
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
