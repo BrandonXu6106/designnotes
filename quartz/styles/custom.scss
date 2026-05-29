@@ -70,6 +70,20 @@ hr {
   }
 }
 
+
+/* 当外层 explorer 标记为折叠或者内容区标记为收起时，隐藏内容 */
+.explorer[data-collapsed="true"] .explorer-content,
+.explorer-content[aria-expanded="false"] {
+  display: none !important;
+}
+
+/* 当外层 explorer 标记为展开或者内容区标记为展开时，显示内容 */
+.explorer[data-collapsed="false"] .explorer-content,
+.explorer-content[aria-expanded="true"] {
+  display: block !important;
+}
+
+
 pre.poetry {
   font-size: 1.2rem;
   font-family: biro_script_standardRgus;
