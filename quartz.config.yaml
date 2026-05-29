@@ -42,6 +42,11 @@ configuration:
         textHighlight: "#b3aa0288"
 plugins:
   - source:
+      name: quartz-themes
+      repo: "https://github.com/saberzero1/quartz-themes.git"
+      subdir: plugin
+    enabled: flase
+  - source:
       repo: https://github.com/vazome/quartz-clickable-images-zoom-plugin.git
       name: clickableImages
     enabled: true
