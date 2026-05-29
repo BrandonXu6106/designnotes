@@ -18,7 +18,7 @@ configuration:
     typography:
       header: DM Serif Display
       body: Bricolage Grotesque
-      code: etBrains Mono
+      code: JetBrains Mono
     colors:
       lightMode:
         light: "#fffdfa"
