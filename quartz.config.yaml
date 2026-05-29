@@ -43,7 +43,6 @@ configuration:
 plugins:
   - source:
       repo: https://github.com/vazome/quartz-clickable-images-zoom-plugin.git
-      subdir: plugin
       name: clickableImages
     enabled: true
   - source: github:quartz-community/obsidian-plugin-excalidraw
