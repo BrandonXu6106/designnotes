@@ -55,6 +55,10 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
           {
             inline: true,
             content: `
+
+
+
+            
 /* Lightbox Image Styles */
 .lightbox-wrapper {
   display: block;
