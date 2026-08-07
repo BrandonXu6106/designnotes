@@ -15,25 +15,23 @@ tags:
   - 硬件/miniLED
   - 硬件/QLED
 ---
-![](https://www.bilibili.com/video/BV1Me4y1k72b/?vd_source=b7647c28b9310a1aceb6a792c0f7fe07)
-
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=558168733&bvid=BV1Me4y1k72b&cid=842034398&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="height:100%;width:100%; aspect-ratio: 16 / 9;"></iframe>
 ## 1. LCD与LED的区别
 市面上最常见的显示技术：
 **LCD**（ Liquid Crystal Display）**「液晶显示屏幕」**
 **LED**  （Light-emitting diode）**「发光二极体」**
+ > [!summary] 总结
+ > - **LCD类**:  ==自身不发光==，靠==背光层==发光，==液晶层==控制偏振角度，从而控制亮度（控制进光量）
+ > 	- `LCD`：白光背光层
+ > 	- `QLED`：蓝光背光层
+ > 	- `MiniLED`：白光点阵分区背光层
+ > - **LED类**：简单可理解为可==发单种光的灯珠== 无液晶层
+ > 	- `LED`：二极管灯珠
+ > 	- `OLED`：有机物，自发光
+ > 	- `W-OLED`：有机物，自发光
+ > 	- `QD-OLED`：有机物，自发光
+ > 	- `Micro-LED`：微型二极管灯珠，自发光
 
-两者区别
-LCD:  ==自身不发光== 靠==背光层发白光== ==液晶层==控制偏振角度从而控制亮度（控制进光量）
-- LCD：白光背光层
-- QLED：蓝光背光层
-- MiniLED：白光分区背光层
-
-LED：简单可理解为可==发单种光的灯珠== 如以下广告牌的灯珠就为LED灯珠
-- LED：二极管，自发光
-- OLED：有机物，自发光
-- W-OLED：有机物，自发光
-- QD-OLED：有机物，自发光
-- Micro-LED：无机物，自发光
 
 ## 2. LCD介绍
 ### 2.1. 结构图：

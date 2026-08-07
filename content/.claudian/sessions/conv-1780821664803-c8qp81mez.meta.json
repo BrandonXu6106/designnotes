@@ -1,0 +1,22 @@
+{
+  "id": "conv-1780821664803-c8qp81mez",
+  "providerId": "claude",
+  "title": "@Scratch/UI 配色策略",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780821664803,
+  "updatedAt": 1780858054918,
+  "lastResponseAt": 1780857974827,
+  "sessionId": "f1f65fcc-aa10-47b6-adb2-e652ad639644",
+  "providerState": {
+    "providerSessionId": "f1f65fcc-aa10-47b6-adb2-e652ad639644"
+  },
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V3.2",
+    "inputTokens": 95418,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 95418,
+    "percentage": 48
+  }
+}

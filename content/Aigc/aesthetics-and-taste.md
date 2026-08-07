@@ -5,7 +5,7 @@ tags:
   - status/fruit
 noindex: true
 ---
-![[../../../public/thoughts/images/john-reeve-pots.png]]
+[[Aigc/开营]]![[../../../public/thoughts/images/john-reeve-pots.png]]
 *John Reeve (1958-61, 1966)*
 
 Taste goes by many names: intuition, conviction, self-trust, aesthetics. Roughly, it is the ability to make judgements about aesthetic value; to be able to tell the difference between what is and is not beautiful to you.

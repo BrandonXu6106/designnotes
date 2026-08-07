@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780776619992-cmip1nxmv",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780776619993,
+  "updatedAt": 1780777656709,
+  "lastResponseAt": 1780777656709,
+  "sessionId": "e6df62d3-9770-44c2-8f97-9e2721284190",
+  "providerState": {
+    "providerSessionId": "e6df62d3-9770-44c2-8f97-9e2721284190"
+  },
+  "currentNote": "IT/CN/1.3 电路交换、分组交换、报文交换.md",
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V3.2",
+    "inputTokens": 32100,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 32100,
+    "percentage": 16
+  }
+}

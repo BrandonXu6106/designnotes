@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"4052e5dff152719a","x":-220,"y":440,"width":2458,"height":920,"type":"group","label":"大公司"},
+		{"id":"b2ed627129ea21a5","type":"group","x":-220,"y":-60,"width":880,"height":300,"color":"1","label":"全栈设计师"},
+		{"id":"c26106847c2d2ede","type":"group","x":-200,"y":640,"width":700,"height":300,"color":"1","label":"绝对话语权"},
+		{"id":"2ece0748d3e41f38","type":"group","x":-180,"y":725,"width":629,"height":165,"color":"4","label":"⭐⭐⭐开源"},
+		{"id":"45fabb3a4626d559","type":"group","x":1224,"y":740,"width":629,"height":150,"color":"4","label":"开源"},
+		{"id":"fd404b0e6f1658b4","type":"group","x":-180,"y":40,"width":540,"height":149,"color":"4","label":"全链路设计师"},
+		{"id":"9564073513cccc5b","type":"group","x":524,"y":725,"width":290,"height":165,"color":"3","label":"节流"},
+		{"id":"c844ac80fbffb0c1","type":"group","x":1928,"y":740,"width":290,"height":150,"color":"3","label":"节流"},
+		{"id":"a0bbf7bc3e4710b8","type":"text","text":"UX","x":-20,"y":109,"width":100,"height":60},
+		{"id":"c5fbd806504114a5","type":"text","text":"UI|视觉","x":100,"y":109,"width":120,"height":60},
+		{"id":"cda96b5cefc45302","type":"text","text":"UER","x":240,"y":109,"width":100,"height":60},
+		{"id":"c8de5b643cca6a5f","type":"text","text":"PM","x":-160,"y":109,"width":111,"height":60},
+		{"id":"4378a780fa155010","type":"text","text":"RD|开发","x":380,"y":109,"width":120,"height":60},
+		{"id":"6c275e1be1351727","type":"text","text":"QA|测试","x":520,"y":109,"width":120,"height":60},
+		{"id":"4eb23e68c81ae7e8","type":"text","text":"OP|运营","x":680,"y":109,"width":120,"height":60},
+		{"id":"cc5b617b43ad2cfc","type":"text","text":"## PM\n- 投资人","x":-160,"y":760,"width":250,"height":100},
+		{"id":"c2489572ff8d5089","type":"text","text":"## OP\n- 市场","x":179,"y":760,"width":250,"height":100},
+		{"id":"ec17fa21a4a4a2dc","type":"text","text":"## RD\n- 成本","x":544,"y":760,"width":250,"height":100},
+		{"id":"7af0f5c18b5f1378","type":"text","text":"## UI\n- 获得流量","x":1244,"y":760,"width":250,"height":100},
+		{"id":"8f2702651c4bba2b","type":"text","text":"## UX\n- 基础体验","x":1583,"y":760,"width":250,"height":100},
+		{"id":"eb67a17f95580138","type":"text","text":"## UER\n- 控制风险","x":1948,"y":760,"width":250,"height":100},
+		{"id":"e3ea1d22b617f3e1","x":555,"y":1140,"width":250,"height":60,"color":"1","type":"text","text":"### 全链路设计师"},
+		{"id":"017fe224a5069df1","type":"text","text":"# ⭐⭐⭐公司盈利侧","x":128,"y":500,"width":325,"height":60},
+		{"id":"ad31e576be33edb3","type":"text","text":"# 用户体验侧","x":1546,"y":500,"width":325,"height":60}
+	],
+	"edges":[
+		{"id":"cfebcf2207960c19","fromNode":"017fe224a5069df1","fromSide":"bottom","toNode":"cc5b617b43ad2cfc","toSide":"top"},
+		{"id":"b06afd9bd77e3ca6","fromNode":"017fe224a5069df1","fromSide":"bottom","toNode":"ec17fa21a4a4a2dc","toSide":"top"},
+		{"id":"0ebdf4a10dfac410","fromNode":"017fe224a5069df1","fromSide":"bottom","toNode":"c2489572ff8d5089","toSide":"top"},
+		{"id":"6aab547258af6433","fromNode":"ad31e576be33edb3","fromSide":"bottom","toNode":"7af0f5c18b5f1378","toSide":"top"},
+		{"id":"c04a2cfe05e5f34b","fromNode":"ad31e576be33edb3","fromSide":"bottom","toNode":"8f2702651c4bba2b","toSide":"top"},
+		{"id":"1a661da36fec1963","fromNode":"ad31e576be33edb3","fromSide":"bottom","toNode":"eb67a17f95580138","toSide":"top"},
+		{"id":"97abbda5db794435","fromNode":"45fabb3a4626d559","fromSide":"left","toNode":"c26106847c2d2ede","toSide":"top","color":"1","label":"抢夺话语权"},
+		{"id":"f1ca510fd3642b77","fromNode":"45fabb3a4626d559","fromSide":"left","toNode":"9564073513cccc5b","toSide":"right","fromEnd":"arrow","color":"5","label":"难兄难弟"},
+		{"id":"8339f96460c02794","fromNode":"cc5b617b43ad2cfc","fromSide":"bottom","toNode":"e3ea1d22b617f3e1","toSide":"top","label":"产品思维"},
+		{"id":"96c45e1f36b486d7","fromNode":"c2489572ff8d5089","fromSide":"bottom","toNode":"e3ea1d22b617f3e1","toSide":"top","label":"数据思维"},
+		{"id":"4432f95079a314f1","fromNode":"ec17fa21a4a4a2dc","fromSide":"bottom","toNode":"e3ea1d22b617f3e1","toSide":"top","label":"实现思维"},
+		{"id":"a4d05c9ed4f12686","fromNode":"45fabb3a4626d559","fromSide":"bottom","toNode":"e3ea1d22b617f3e1","toSide":"top"},
+		{"id":"d352dbe76d56ac3f","fromNode":"eb67a17f95580138","fromSide":"bottom","toNode":"e3ea1d22b617f3e1","toSide":"top"}
+	]
+}

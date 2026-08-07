@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780771687931-kmmes2n5k",
+  "providerId": "claude",
+  "title": "帮我格式化整理这篇笔记的内容",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780771687932,
+  "updatedAt": 1780776610614,
+  "lastResponseAt": 1780776594588,
+  "sessionId": "48f9e5dc-a7fa-491c-bd94-f75665a88f72",
+  "providerState": {
+    "providerSessionId": "48f9e5dc-a7fa-491c-bd94-f75665a88f72",
+    "previousProviderSessionIds": [
+      "5d3970a8-ce76-4093-9bf4-b5db86f94e1d"
+    ]
+  },
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V3.2",
+    "inputTokens": 26367,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26367,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}

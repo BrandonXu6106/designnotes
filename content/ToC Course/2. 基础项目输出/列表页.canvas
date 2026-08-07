@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"5d1246edce127538","type":"text","text":"数据的筛选与排序","x":-280,"y":-120,"width":340,"height":60,"color":"4"},
+		{"id":"f9cd05fea6e3a73f","type":"text","text":"数据的展示","x":-280,"y":-40,"width":340,"height":480,"color":"2"},
+		{"id":"393b3cb7f613fd01","type":"text","text":"搜索框","x":180,"y":-194,"width":250,"height":50,"color":"4"},
+		{"id":"c557b161e35c1960","type":"text","text":"下拉菜单","x":180,"y":-125,"width":250,"height":50,"color":"4"},
+		{"id":"5b45b11c1f7fd6b4","type":"text","text":"更多面板","x":180,"y":-60,"width":250,"height":58,"color":"4"},
+		{"id":"20a07881844da5c2","type":"text","text":"快速选择(tag)","x":180,"y":20,"width":250,"height":58,"color":"4"},
+		{"id":"2148af54b3747af2","x":480,"y":-198,"width":250,"height":50,"type":"text","text":"主题 "},
+		{"id":"65d9089cdf41b5fa","type":"text","text":"筛选排序","x":480,"y":-125,"width":250,"height":50},
+		{"id":"9dd29ff1e9358045","type":"text","text":"筛选","x":480,"y":-52,"width":250,"height":50},
+		{"id":"1281a25c7e3bfb4a","type":"text","text":"筛选(用户常用)→权重高","x":480,"y":20,"width":250,"height":50},
+		{"id":"0cd53f9d62ef9e6c","x":180,"y":200,"width":592,"height":147,"type":"text","text":"数据的展示→列表形式(自由射击，不局限于表格)"}
+	],
+	"edges":[
+		{"id":"dac86c9802b1d88a","fromNode":"5d1246edce127538","fromSide":"right","toNode":"393b3cb7f613fd01","toSide":"left"},
+		{"id":"030f5c208277bb5d","fromNode":"5d1246edce127538","fromSide":"right","toNode":"5b45b11c1f7fd6b4","toSide":"left"},
+		{"id":"6d1934c0a081fc03","fromNode":"5d1246edce127538","fromSide":"right","toNode":"c557b161e35c1960","toSide":"left"},
+		{"id":"3f19a49633a4c071","fromNode":"5d1246edce127538","fromSide":"right","toNode":"20a07881844da5c2","toSide":"left"},
+		{"id":"c8ff21635c7905fc","fromNode":"c557b161e35c1960","fromSide":"right","toNode":"65d9089cdf41b5fa","toSide":"left"},
+		{"id":"1116370af2fcfa71","fromNode":"393b3cb7f613fd01","fromSide":"right","toNode":"2148af54b3747af2","toSide":"left"},
+		{"id":"cf7e37aaae8fdea4","fromNode":"5b45b11c1f7fd6b4","fromSide":"right","toNode":"9dd29ff1e9358045","toSide":"left"},
+		{"id":"cce8a4c5b402f37d","fromNode":"20a07881844da5c2","fromSide":"right","toNode":"1281a25c7e3bfb4a","toSide":"left"},
+		{"id":"49af2768627fd44b","fromNode":"f9cd05fea6e3a73f","fromSide":"right","toNode":"0cd53f9d62ef9e6c","toSide":"left"}
+	]
+}

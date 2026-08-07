@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.ext == "md"
+    - file.folder == "ToC Course"
 formulas:
   doc_type: |
     if(file.hasTag("plugin/transformer"), "transformer",
@@ -32,9 +32,9 @@ properties:
 views:
   - type: table
     name: All Documentation
-    groupBy:
-      property: formula.section
-      direction: ASC
+    filters:
+      and:
+        - file.folder == "ToC Course"
     order:
       - file.name
       - title
@@ -42,9 +42,9 @@ views:
       - formula.section
       - formula.last_modified
     sort:
-      - property: formula.doc_type
-        direction: ASC
       - property: file.name
+        direction: DESC
+      - property: formula.section
         direction: ASC
     columnSize:
       file.name: 185

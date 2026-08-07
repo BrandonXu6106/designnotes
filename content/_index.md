@@ -10,7 +10,7 @@ Stay foolish, stay hungry!
 ```
 
 > [!tip] profile
-> - 欢迎来到我的设计学习([Obsidian](https://obsidian.md/))笔记花园🎉，我是**辰言_Brandon**，一个成长中的设计师;
+> - 欢迎来到我的设计学习([Obsidian](https://obsidian.md/))笔记花园🎉，我是**辰川_Brandon**，一个成长中的设计师;
 > - 麻雀虽小，五脏俱全🛖。这里栽种着我在学习路上的各种元笔记;
 > >无独有偶，相信任何的专业都需要无与伦比的探索精神，方得始终。于是我耕种了这片知识花园——记录，分享我的设计学习之路。
 > >
@@ -43,6 +43,8 @@ Stay foolish, stay hungry!
 - [Software](/posts/Software/)：软件的学习与使用
 - [Books](/books): 设计类书籍
 
+
 ```poetry
 - BrandonXu :)
 ```
+

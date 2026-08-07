@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780858101329-bqwr905jd",
+  "providerId": "claude",
+  "title": "请你帮我整理一下这篇笔记的内容，梳理好笔记结构和逻辑，适当添加callout和表格理解，使用mark...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780858101329,
+  "updatedAt": 1780858148194,
+  "lastResponseAt": 1780858135871,
+  "sessionId": "4664c5f4-4c44-4299-8d2e-c2611b22fd30",
+  "providerState": {
+    "providerSessionId": "4664c5f4-4c44-4299-8d2e-c2611b22fd30"
+  },
+  "usage": {
+    "model": "deepseek-ai/DeepSeek-V3.2",
+    "inputTokens": 22102,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22102,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
