@@ -1,4 +1,4 @@
 ---
-title: "Rhizome"
-description: "My independent research practice focused on data-neutrality."
+title: reading
+description: My independent research practice focused on data-neutrality.
 ---

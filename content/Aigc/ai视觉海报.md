@@ -22,15 +22,21 @@ excalidraw-plugin: parsed
 ## 2. Prompt 生图
 **prompt范式**：内容 十 主体图文(文:标题+副标题等)+(图:商品/人物的描) 十 色彩 十 风格
 **反推**prompt
-Image2.0**提示词网**：[AiWind](https://www.aiwind.org/)、[MyGIF](https://www.mygifai.com/inspiration)、[YouMind](https://youmind.com/zh-CN/gpt-image-2-prompts)
-
-## 3. 图生图
+Image2.0**提示词网**：[AiWind](https://www.aiwind.org/)、[MyGIF](https://www.mygifai.com/inspiration)、[YouMind](https://youmind.com/zh-CN/gpt-image-2-prompt3. 图生图
 1. **确定需求**——文本和对象
 2. **版式参考**  
 3. **image2 图生图**
 
 ![202608051721287.png|284](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202608051721287.png)
 4. **细节优化**
+
+
+## lovart 使用
+
+![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202608082257758.png)
+使用此功能，去生成图片和字体，避免使用agent，否则会十分消耗token
+
+
 
 
 

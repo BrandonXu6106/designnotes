@@ -1,9 +1,9 @@
 {
   "userName": "Brandon",
   "permissionMode": "yolo",
-  "model": "claude-code/deepseek-ai/DeepSeek-V3.2",
+  "model": "claude-code/deepseek-v4-flash",
   "thinkingBudget": "off",
-  "effortLevel": "medium",
+  "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -12,7 +12,15 @@
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
-  "envSnippets": [],
+  "envSnippets": [
+    {
+      "id": "snippet-1789793525790",
+      "name": "deepseek_v4",
+      "description": "",
+      "envVars": "ANTHROPIC APl KEY=sk-e78b1fc7983947a7854a22dc8c33dd2d\nANTHROPIC BASE URL=https://api.deepseek.com/anthropic\nANTHROPIC_MODEL=deepseek-v4-flash\nCLAUDE _CODE_USE BEDROCK=1",
+      "modelAliases": {}
+    }
+  ],
   "customContextLimits": {},
   "customModelAliases": {},
   "keyboardNavigation": {
@@ -34,11 +42,11 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "sonnet",
-      "environmentVariables": "ANTHROPIC APl KEY=sk-qghsjutqrwqyiypuyvyannznwfzcqdfavgmkggfefhusqeke\nANTHROPIC BASE URL=https://api.siliconflow.cn\nANTHROPIC_MODEL=deepseek-ai/DeepSeek-V3.2\nCLAUDE _CODE_USE BEDROCK=1",
-      "environmentHash": "ANTHROPIC_MODEL=deepseek-ai/DeepSeek-V3.2"
+      "environmentVariables": "ANTHROPIC APl KEY=sk-e78b1fc7983947a7854a22dc8c33dd2d\nANTHROPIC BASE URL=https://api.deepseek.com/anthropic\nANTHROPIC_MODEL=deepseek-v4-flash\nCLAUDE _CODE_USE BEDROCK=1",
+      "environmentHash": "ANTHROPIC_MODEL=deepseek-v4-flash"
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -47,7 +55,8 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:26c48133-435b-4166-8112-0ef4ae854386": "native-windows"
+        "device:26c48133-435b-4166-8112-0ef4ae854386": "native-windows",
+        "device:ef13f9a1-a999-44eb-bb40-1573c2169b26": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -78,17 +87,17 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "claude-code/deepseek-ai/DeepSeek-V3.2"
+    "claude": "claude-code/deepseek-v4-flash"
   },
   "savedProviderEffort": {
-    "claude": "medium"
+    "claude": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "claude-code/deepseek-ai/DeepSeek-V3.2",
+  "lastCustomModel": "claude-code/deepseek-v4-flash",
   "maxTabs": 3,
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,

@@ -3,7 +3,12 @@ import assert from "node:assert"
 import fs from "fs"
 import path from "path"
 import os from "os"
-import { symlinkOrCopySync, symlinkOrCopy } from "./helpers.js"
+import {
+  symlinkOrCopySync,
+  symlinkOrCopy,
+  stashContentFolder,
+  popContentFolder,
+} from "./helpers.js"
 
 function makeTmpDir() {
   return fs.mkdtempSync(path.join(os.tmpdir(), "quartz-symlink-test-"))
@@ -15,6 +20,36 @@ function makeTarget(tmpDir) {
   fs.writeFileSync(path.join(target, "marker.txt"), "hello")
   return target
 }
+
+describe("content folder backup", () => {
+  let tmpDir
+
+  beforeEach(() => {
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "quartz-content-test-"))
+  })
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true })
+  })
+
+  test("stashes and restores content including macOS metadata files", async () => {
+    const contentFolder = path.join(tmpDir, "content")
+    const cacheFolder = path.join(tmpDir, "cache", "content-cache")
+    fs.mkdirSync(contentFolder)
+    fs.writeFileSync(path.join(contentFolder, ".DS_Store"), "metadata")
+    fs.writeFileSync(path.join(contentFolder, "note.md"), "note")
+
+    await stashContentFolder(contentFolder, cacheFolder)
+
+    assert.strictEqual(fs.existsSync(contentFolder), false)
+    assert.strictEqual(fs.readFileSync(path.join(cacheFolder, ".DS_Store"), "utf-8"), "metadata")
+
+    await popContentFolder(contentFolder, cacheFolder)
+
+    assert.strictEqual(fs.readFileSync(path.join(contentFolder, "note.md"), "utf-8"), "note")
+    assert.strictEqual(fs.existsSync(cacheFolder), false)
+  })
+})
 
 describe("symlinkOrCopySync", () => {
   let tmpDir

@@ -13,7 +13,9 @@
   <div id="root"></div>
 
   <script type="module">
-    import { exportToSvg } from "https://esm.sh/@excalidraw/excalidraw?bundle";
+    // Pin the version: unpinned resolves to 0.18.1 on esm.sh, whose transitive
+    // dep @braintree/sanitize-url returns 404 and breaks the whole module graph.
+    import { exportToSvg } from "https://esm.sh/@excalidraw/excalidraw@0.18.0?bundle";
 
     window.renderDiagram = async function(jsonData) {
       try {

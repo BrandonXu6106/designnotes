@@ -7,7 +7,7 @@ tags:
 date: 2025-08-06
 ---
 ## 1. 基础形象设定
-> [!info]- 什么是IP形象？
+> [!info] 什么是IP形象？
 > - **IP = Intellectual Property (知识产权)**
 > 	- 在文创、影视、游戏、动漫等领域，IP 常指 **有影响力的原创内容或品牌**，比如《哈利·波特》、迪士尼角色、漫威宇宙。
 > 	- 品牌设计中，IP 指的是各种类型的吉祥物(商业、个人、官方)，商业IP()适用于快销品
@@ -15,14 +15,18 @@ date: 2025-08-06
 > 	- 个人IP 可以联名
 > 	- IP可以场景化，情绪化，区别于logo
 
-- 品牌IP作用
+
+>IP形象不是插画，==是符号==。需要简约有记忆点。
+
+
+- **品牌IP作用**
 	- 具象化、拟人化、情感共鸣、亲切感、记忆点
 ### 1.1. IP分类
 - 人物类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211648867.png)
 - 动物类(多)：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654482.png)
 - 植物类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654476.png)
 - 产品类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211655584.png)
-### 1.2. IP形象风格[[English/words/cattle|cattle]]
+### 1.2. IP形象风格
 - 脱离现代审美： 复杂、大眼睛、微笑、颜色多 
 	- **IP形象不是插画，是符号，需要极简。**![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211753333.png)
 - 极简、时尚、有辨识度、颜色单一、有自己的专属情绪、有记忆点

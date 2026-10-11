@@ -10,7 +10,7 @@ tags:
 draft: false
 enableToc: true
 ---
-## 1. 基本介绍
+[[Software/AI/常用基础功能总结]]## 1. 基本介绍
 - 面板![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202511181943367.png)
 - 基本快捷键：
 	- 复制粘贴

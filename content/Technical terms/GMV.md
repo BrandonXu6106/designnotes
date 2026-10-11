@@ -11,7 +11,7 @@ excalidraw-open-md: true
 excalidraw-plugin: parsed
 ---
 **全称：Gross Merchandise Volume**
-中文：**商品交易总额**——下单金额（==含未支付、退款、运费、优惠券==）
+中文：**商品交易总额**——下单金额（==含未支付、退款、运费、优惠券==）[[Technical terms/OPC]]
 
 本质：下单产生的==流水==，==场面数==
 - ≠商家实际收款，刷单、退货都能拉高 GMV
