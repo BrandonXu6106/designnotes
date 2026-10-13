@@ -7,8 +7,14 @@
 		{"id":"ecf8417acb4ceade","type":"text","text":"![20261013082208408.jpg|210](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013082208408.jpg)","x":-260,"y":1720,"width":250,"height":487},
 		{"id":"008513b9bf51ddd2","type":"text","text":"![20261013082221263.jpg|198](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013082221263.jpg)","x":-260,"y":2280,"width":250,"height":467},
 		{"id":"0910b814daa84925","type":"text","text":"CHAI","x":-1080,"y":1420,"width":250,"height":60},
-		{"id":"885330d08a2a701c","type":"text","text":"![20261013092952514.jpg|273](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013092952514.jpg)","x":280,"y":60,"width":250,"height":500},
-		{"id":"df4fe820b6c4b013","x":280,"y":660,"width":250,"height":440,"type":"text","text":"![20261013092947667.jpg|254](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013092947667.jpg)"}
+		{"id":"df4fe820b6c4b013","type":"text","text":"![20261013092947667.jpg|254](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013092947667.jpg)","x":120,"y":660,"width":250,"height":440},
+		{"id":"885330d08a2a701c","type":"text","text":"![20261013092952514.jpg|273](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013092952514.jpg)","x":480,"y":630,"width":250,"height":500},
+		{"id":"5f093ef16f5ac97e","type":"text","text":"![20261013093000502.jpg|280](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013093000502.jpg)","x":120,"y":1160,"width":250,"height":520},
+		{"id":"2d3f0d0a01052a6a","type":"text","text":"![20261013093003797.jpg|285](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013093003797.jpg)","x":480,"y":1160,"width":250,"height":520},
+		{"id":"23e29281ada6d80f","type":"text","text":"![20261013093007284.jpg|272](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013093007284.jpg)","x":800,"y":1160,"width":250,"height":520},
+		{"id":"a1551f084b892efa","type":"text","text":"![20261013093010736.jpg|301](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013093010736.jpg)","x":1120,"y":1160,"width":250,"height":520},
+		{"id":"ac81492d89e1f839","type":"file","file":"attachment/PixPin_2026-10-13_10-00-12.png","x":-1640,"y":1325,"width":400,"height":250},
+		{"id":"c4994b5ecbd025fb","type":"text","text":"![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/20261013092942356.jpg)","x":120,"y":60,"width":250,"height":500}
 	],
 	"edges":[
 		{"id":"621811b81387b75b","fromNode":"0910b814daa84925","fromSide":"right","toNode":"33f5b7060d2c5c63","toSide":"left"},
@@ -17,6 +23,13 @@
 		{"id":"73a22b4f4974349c","fromNode":"0910b814daa84925","fromSide":"right","toNode":"a6f40e42e452001c","toSide":"left"},
 		{"id":"fa34e21486627e7b","fromNode":"0910b814daa84925","fromSide":"right","toNode":"ecf8417acb4ceade","toSide":"left"},
 		{"id":"573be48e95794f67","fromNode":"0910b814daa84925","fromSide":"right","toNode":"008513b9bf51ddd2","toSide":"left"},
-		{"id":"47fbd17d475deffd","fromNode":"33f5b7060d2c5c63","fromSide":"right","toNode":"885330d08a2a701c","toSide":"left"}
+		{"id":"8851b8b8199b93f7","fromNode":"079e431cea4be01a","fromSide":"right","toNode":"df4fe820b6c4b013","toSide":"left"},
+		{"id":"718d31e0007502a6","fromNode":"33f5b7060d2c5c63","fromSide":"right","toNode":"c4994b5ecbd025fb","toSide":"left"},
+		{"id":"e929f84348c7e5a4","fromNode":"df4fe820b6c4b013","fromSide":"right","toNode":"885330d08a2a701c","toSide":"left"},
+		{"id":"43bc5b81752e53d6","fromNode":"a6f40e42e452001c","fromSide":"right","toNode":"5f093ef16f5ac97e","toSide":"left"},
+		{"id":"04f4985bb6e6c65f","fromNode":"5f093ef16f5ac97e","fromSide":"right","toNode":"2d3f0d0a01052a6a","toSide":"left"},
+		{"id":"04b8cb0469d5a81d","fromNode":"2d3f0d0a01052a6a","fromSide":"right","toNode":"23e29281ada6d80f","toSide":"left"},
+		{"id":"4e15dd996749acb0","fromNode":"23e29281ada6d80f","fromSide":"right","toNode":"a1551f084b892efa","toSide":"left"},
+		{"id":"ea3656ec94e86dcc","fromNode":"ac81492d89e1f839","fromSide":"right","toNode":"0910b814daa84925","toSide":"left"}
 	]
 }
