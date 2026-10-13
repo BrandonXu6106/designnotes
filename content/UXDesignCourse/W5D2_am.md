@@ -1,6 +1,6 @@
 ---
 title:
-  - Tem
+  - W5D2_am
 aliases:
 author:
   - Brandon
@@ -12,9 +12,3 @@ enableToc: true
 excalidraw-open-md: true
 excalidraw-plugin: parsed
 ---
-
-
-
-
-
-
